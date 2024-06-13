@@ -1,4 +1,5 @@
 // Original: https://github.com/homeless1337/fortnite-exploits/blob/main/shoot.cpp
+// Transform the F
 
 float* (*CalcShot)(uintptr_t, uintptr_t, uintptr_t) = nullptr;
 float* CalcShotHook(uintptr_t arg0, uintptr_t arg1, uintptr_t arg2) {
